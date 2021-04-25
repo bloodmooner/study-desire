@@ -1,0 +1,100 @@
+.new-collection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    margin-bottom: 70px;
+    &__title {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 51px;
+        text-align: center;
+        color: #363838;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 250px;
+            height: 1px;
+            background-color: #6D7278;
+            bottom: -25px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #5A5A5A;
+        max-width: 730px;
+        margin: 45px auto 30px;
+        text-align: center;
+    }
+
+    &__item {
+        position: relative;
+        &:hover {
+            .new-collection__info {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__images {
+        min-height: 350px;
+        object-fit: cover;
+    }
+
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(#fff, .7);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    &__info-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #363838;
+        padding-bottom: 19px;
+        margin-bottom: 19px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 80%;
+            height: 1px;
+            background-color: #6D7278;;
+            bottom: 0;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    &__info-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        color: #707070;
+    }
+}

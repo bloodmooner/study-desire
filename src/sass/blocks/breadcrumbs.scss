@@ -1,0 +1,26 @@
+.breadcrumbs {
+    background: rgba(#DFDFDF, .5);
+    padding: 13px 14px;
+    &__list {
+        list-style-type: none;
+        display: flex;
+    }
+
+    &__item::after {
+        content: '/';
+        margin-left: 0;
+        margin-right: 4px;
+    }
+
+    &__item:last-child:after {
+        display: none;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #5A5A5A;
+    }
+}

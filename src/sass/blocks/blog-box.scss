@@ -1,0 +1,60 @@
+.blog-box {
+    padding-bottom: 100px;
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 51px;
+        color: #363838;
+        text-align: center;
+        max-width: 430px;
+        margin: 0 auto 30px auto;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    &__item {
+    }
+
+    &__img-link {
+        margin-bottom: 19px;
+        display: inline-block;
+    }
+
+    &__img {
+    }
+
+    &__links {
+        margin-bottom: 9px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        color: #707070;
+    }
+
+    &__date,
+    &__author,
+    &__theme {
+        color: inherit;
+    }
+
+    
+    &__titlelink {
+    }
+
+    &__item-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 38px;
+        color: #363838;
+    }
+}

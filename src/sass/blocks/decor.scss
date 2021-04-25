@@ -1,0 +1,38 @@
+.decor {
+    padding: 170px 0 150px;
+    background-image: url('../../img/decor/decor-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 80px;
+        color: #363838;
+        max-width: 730px;
+        position: relative;
+        margin-bottom: 22px;
+        padding-bottom: 22px;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 1px;
+            background-color: #6D7278;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #5A5A5A;
+        max-width: 540px;
+    }
+}
+

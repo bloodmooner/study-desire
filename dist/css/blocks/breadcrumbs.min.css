@@ -1,0 +1,1 @@
+.breadcrumbs{background:rgba(223,223,223,.5);padding:13px 14px}.breadcrumbs__list{list-style-type:none;display:flex}.breadcrumbs__item::after{content:'/';margin-left:0;margin-right:4px}.breadcrumbs__item:last-child:after{display:none}.breadcrumbs__link{font-style:normal;font-weight:400;font-size:14px;line-height:28px;color:#5a5a5a}

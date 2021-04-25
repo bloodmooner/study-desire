@@ -1,0 +1,80 @@
+@import 'base/variables';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/libs';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+button:active, 
+button:focus {
+    outline: none;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px 
+}
+
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.slick-dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        margin: 0 15px;
+    }
+    button {
+        background-color: #363838;
+        border: none;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        padding: 0;
+        font-size: 0;
+    }
+    li.slick-active {
+        button {
+            background-color: #FFEF35;
+        }
+    }
+        
+}
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/logo';
+@import 'blocks/footer';
+@import 'blocks/rightside-menu';
+
+@import 'blocks/top';
+@import 'blocks/collection';
+@import 'blocks/decor';
+@import 'blocks/works-path';
+@import 'blocks/gallery';
+@import 'blocks/blog-box';
+
+@import 'blocks/breadcrumbs';
+@import 'blocks/about';
+@import 'blocks/inspiration';
+@import 'blocks/partners';
+
