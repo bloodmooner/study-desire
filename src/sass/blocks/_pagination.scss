@@ -25,7 +25,8 @@
     &__arrow {
         margin: 0 6px;
         &_disabled {
-            display: none;
+            opacity: 0;
+            pointer-events: none;
         }
     }
 }
