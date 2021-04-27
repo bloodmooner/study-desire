@@ -1,0 +1,39 @@
+.recent-posts {
+    margin-bottom: 50px;
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 23px;
+        color: #363838;
+        margin-bottom: 15px;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+
+    &__item {
+        margin-bottom: 12px;
+    }
+
+    &__item-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #5A5A5A;
+        display: inline-block;
+    }
+
+    &__date,
+    &__author {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #A1A1A1;
+    }
+
+}

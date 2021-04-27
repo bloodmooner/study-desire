@@ -1,0 +1,30 @@
+.aside {
+    width: 350px;
+    margin-left: 30px;
+    &__search {
+        position: relative;
+        margin-bottom: 40px;
+    }
+    &__search-input {
+        padding: 6px 38px 6px 18px;
+        border: 1px solid rgba($color: #383636, $alpha: .7);
+        border-radius: 20px;
+        display: block;
+        width: 100%;
+        ::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 28px;
+            color: #A1A1A1;
+        }
+    }
+    &__search-btn {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 5px;
+        right: 13px;
+        cursor: pointer;
+    }
+}

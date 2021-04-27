@@ -20,6 +20,10 @@ $(function () {
         arrows: false
     });
 
+    $('.article-slider__box').slick({
+        arrows: true
+    });
+
     var mixer = mixitup('.gallery__inner', {
         load: {
             filter: '.living-room'
